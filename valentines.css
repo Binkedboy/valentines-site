@@ -1,0 +1,67 @@
+body{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: rgb(255, 235, 239);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.offer{
+  font-family: Great vibes, Arial;
+  font-size: 70px;
+  margin: 0px;
+  margin-bottom: 10px;
+  color: rgb(255, 75, 105);
+}
+
+.yes, .no{
+  padding: 2px;
+  margin: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 178, 191);
+  border: 1.3px solid rgb(255, 111, 135);
+  border-radius: 3px;
+  transition: box-shadow 0.2s, background-color 0.1s ease;
+}
+.yes:hover, .no:hover{
+  box-shadow: -2px 9px 5px 1.5px rgba(0, 0, 0, 0.25);
+}
+.yes:active, .no:active{
+  background-color: rgb(255, 75, 105);
+}
+.text{
+  font-size: 25px;
+  font-family: Great vibes, Arial;
+  margin-right: 6px;
+  color: white;   
+}
+img{
+  width: 100px;
+  height: 60px;
+  border-radius: 4px;
+}
+.sad-kitty{
+  width: 140px;
+}
+
+.bg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 1000px;
+  width: 100vw;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+}

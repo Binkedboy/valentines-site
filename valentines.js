@@ -10,7 +10,7 @@ function replaceImg(x){
   {
     const img = yesButton.querySelector('.happy-kitty');
     console.log(img);
-    img.src = "/valentines/images/cute-cat-lol.gif"
+    img.src = "images/cute-cat-lol.gif"
     img.style.width = '200px';
     img.style.height = '125px';
     answerReplace.replaceChild(img, answer);
@@ -19,9 +19,10 @@ function replaceImg(x){
   {
     const img = noButton.querySelector('.sad-kitty');
     console.log(img);
-    img.src = "/valentines/images/sad-cat.gif"
+    img.src = "images/sad-cat.gif"
     img.style.width = '200px';
     img.style.height = '150px';
     answerReplace.replaceChild(img, answer);
   }
+
 }
